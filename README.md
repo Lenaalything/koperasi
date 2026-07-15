@@ -63,11 +63,5 @@ Sistem ini mendukung 4 peran (role) pengguna dengan hak akses yang berbeda:
 - Halaman login dapat diakses melalui rute `/login`.
 - **Username untuk petugas:** `admin`, `bendahara`, atau `ketua`.
 - **Username untuk member:** Sesuai dengan yang didaftarkan (atau dapat mencoba `member` untuk purwarupa/testing).
-
-##  Catatan Pembaruan
-- Telah dilakukan perbaikan pada sistem auto-generate ID agar tidak terjadi bentrok (Primary Key Conflict) dengan menggunakan metode pencarian ID maksimum.
-- Telah ditambahkan fitur **Auto-Archive (Arsip Otomatis)**: Pinjaman yang sudah Lunas atau Ditolak oleh Ketua akan dipindahkan secara otomatis ke tabel `pinjaman_arsip`. Hal ini memungkinkan anggota untuk dapat mengajukan pinjaman baru tanpa terkendala ID yang sudah ada sebelumnya, sekaligus menjaga riwayat data pinjaman agar tetap utuh.
-- Penyesuaian perhitungan sisa pinjaman secara *real-time* saat pembayaran angsuran.
-
 ---
 *Dibuat menggunakan Laravel Framework.*
