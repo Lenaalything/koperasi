@@ -57,7 +57,6 @@ Sistem ini mendukung 4 peran (role) pengguna dengan hak akses yang berbeda:
    ```bash
    php artisan key:generate
    ```
-5. *(Opsional)* Jika Anda baru pertama kali mengatur database, jalankan perintah migrasi. Namun perlu diperhatikan, skema database pada proyek ini sebagian dibuat secara manual (tanpa migration bawaan). **Pastikan tabel-tabel utama (`member`, `pinjaman`, `pinjaman_arsip`, `angsuran`, `simpanan`, `petugas`, `aset`, `jurnal`) sudah tersedia sesuai struktur**.
 
 ##  Akses Login
 - Halaman login dapat diakses melalui rute `/login`.
