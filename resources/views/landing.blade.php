@@ -31,7 +31,7 @@
           <span>MULAI SEKARANG</span>
           <i class="bi bi-arrow-right" style="color: white; margin-left: 8px;"></i>
         </a>
-        <a href="#" class="btn btn-secondary">
+        <a href="#about" class="btn btn-secondary">
           <i class="bi bi-play-circle-fill" style="margin-right: 8px; color: var(--primary);"></i>
           <span>Pelajari Lebih Lanjut</span>
         </a>
